@@ -1,0 +1,47 @@
+{
+  "name": "inventory-tracker",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "description": "A production-ready mobile-first inventory management app built with Expo, Supabase, and offline-first architecture",
+  "keywords": ["expo", "react-native", "supabase", "inventory", "mobile", "offline-first"],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/netinfo": "^11.4.1",
+    "@supabase/supabase-js": "^2.58.0",
+    "expo": "~54.0.10",
+    "expo-auth-session": "^7.0.8",
+    "expo-camera": "^17.0.8",
+    "expo-constants": "^18.0.9",
+    "expo-crypto": "^15.0.7",
+    "expo-device": "^8.0.8",
+    "expo-image-picker": "^17.0.8",
+    "expo-linking": "^8.0.8",
+    "expo-media-library": "^18.2.0",
+    "expo-notifications": "^0.32.11",
+    "expo-router": "^6.0.8",
+    "expo-secure-store": "^15.0.7",
+    "expo-sqlite": "^16.0.8",
+    "expo-status-bar": "~3.0.8",
+    "expo-web-browser": "^15.0.7",
+    "react": "19.1.0",
+    "react-hook-form": "^7.63.0",
+    "react-native": "0.81.4",
+    "react-native-gesture-handler": "^2.28.0",
+    "react-native-paper": "^5.14.5",
+    "react-native-reanimated": "^4.1.2",
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-url-polyfill": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
