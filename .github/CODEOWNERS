@@ -1,0 +1,9 @@
+# Global code owners for the Inventory AI Organizer project
+# These owners will be requested for review when someone opens a pull request.
+
+# Default owners for everything in the repo
+* @Stoneandresin
+
+# Specific ownership for configuration files
+.github/ @Stoneandresin
+*.md @Stoneandresin
